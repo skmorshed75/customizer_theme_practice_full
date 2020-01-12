@@ -1,0 +1,1515 @@
+[03-Jan-2020 17:21:21 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests/Hooks.php on line 55
+[03-Jan-2020 17:21:22 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/php/WP_CLI/SynopsisValidator.php on line 130
+[04-Jan-2020 10:19:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_supprt() in /app/public/wp-content/themes/factorian/functions.php:4
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): factorian_theme_setup('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(507): do_action('after_setup_the...')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/themes.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/factorian/functions.php on line 4
+[04-Jan-2020 10:20:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_header() in /app/public/wp-content/themes/factorian/index.php:2
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(98): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/factorian/index.php on line 2
+[04-Jan-2020 10:29:52 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/factorian/functions.php on line 12
+[04-Jan-2020 10:54:16 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/factorian/functions.php on line 10
+[04-Jan-2020 10:54:16 UTC] PHP Stack trace:
+[04-Jan-2020 10:54:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[04-Jan-2020 10:54:16 UTC] PHP   2. require() /app/public/index.php:17
+[04-Jan-2020 10:54:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[04-Jan-2020 10:54:16 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:98
+[04-Jan-2020 10:54:16 UTC] PHP   5. get_header() /app/public/wp-content/themes/factorian/index.php:2
+[04-Jan-2020 10:54:16 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:41
+[04-Jan-2020 10:54:16 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[04-Jan-2020 10:54:16 UTC] PHP   8. require_once() /app/public/wp-includes/template.php:722
+[04-Jan-2020 10:54:16 UTC] PHP   9. wp_head() /app/public/wp-content/themes/factorian/header.php:4
+[04-Jan-2020 10:54:16 UTC] PHP  10. do_action() /app/public/wp-includes/general-template.php:2879
+[04-Jan-2020 10:54:16 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[04-Jan-2020 10:54:16 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[04-Jan-2020 10:54:16 UTC] PHP  13. wp_enqueue_scripts() /app/public/wp-includes/class-wp-hook.php:288
+[04-Jan-2020 10:54:16 UTC] PHP  14. do_action() /app/public/wp-includes/script-loader.php:2670
+[04-Jan-2020 10:54:16 UTC] PHP  15. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[04-Jan-2020 10:54:16 UTC] PHP  16. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[04-Jan-2020 10:54:16 UTC] PHP  17. fac_theme_assets() /app/public/wp-includes/class-wp-hook.php:288
+[04-Jan-2020 10:54:16 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/factorian/functions.php on line 11
+[04-Jan-2020 10:54:16 UTC] PHP Stack trace:
+[04-Jan-2020 10:54:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[04-Jan-2020 10:54:16 UTC] PHP   2. require() /app/public/index.php:17
+[04-Jan-2020 10:54:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[04-Jan-2020 10:54:16 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:98
+[04-Jan-2020 10:54:16 UTC] PHP   5. get_header() /app/public/wp-content/themes/factorian/index.php:2
+[04-Jan-2020 10:54:16 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:41
+[04-Jan-2020 10:54:16 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[04-Jan-2020 10:54:16 UTC] PHP   8. require_once() /app/public/wp-includes/template.php:722
+[04-Jan-2020 10:54:16 UTC] PHP   9. wp_head() /app/public/wp-content/themes/factorian/header.php:4
+[04-Jan-2020 10:54:16 UTC] PHP  10. do_action() /app/public/wp-includes/general-template.php:2879
+[04-Jan-2020 10:54:16 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[04-Jan-2020 10:54:16 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[04-Jan-2020 10:54:16 UTC] PHP  13. wp_enqueue_scripts() /app/public/wp-includes/class-wp-hook.php:288
+[04-Jan-2020 10:54:16 UTC] PHP  14. do_action() /app/public/wp-includes/script-loader.php:2670
+[04-Jan-2020 10:54:16 UTC] PHP  15. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[04-Jan-2020 10:54:16 UTC] PHP  16. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[04-Jan-2020 10:54:16 UTC] PHP  17. fac_theme_assets() /app/public/wp-includes/class-wp-hook.php:288
+[04-Jan-2020 10:54:16 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/factorian/functions.php on line 12
+[04-Jan-2020 10:54:16 UTC] PHP Stack trace:
+[04-Jan-2020 10:54:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[04-Jan-2020 10:54:16 UTC] PHP   2. require() /app/public/index.php:17
+[04-Jan-2020 10:54:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[04-Jan-2020 10:54:16 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:98
+[04-Jan-2020 10:54:16 UTC] PHP   5. get_header() /app/public/wp-content/themes/factorian/index.php:2
+[04-Jan-2020 10:54:16 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:41
+[04-Jan-2020 10:54:16 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[04-Jan-2020 10:54:16 UTC] PHP   8. require_once() /app/public/wp-includes/template.php:722
+[04-Jan-2020 10:54:16 UTC] PHP   9. wp_head() /app/public/wp-content/themes/factorian/header.php:4
+[04-Jan-2020 10:54:16 UTC] PHP  10. do_action() /app/public/wp-includes/general-template.php:2879
+[04-Jan-2020 10:54:16 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[04-Jan-2020 10:54:16 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[04-Jan-2020 10:54:16 UTC] PHP  13. wp_enqueue_scripts() /app/public/wp-includes/class-wp-hook.php:288
+[04-Jan-2020 10:54:16 UTC] PHP  14. do_action() /app/public/wp-includes/script-loader.php:2670
+[04-Jan-2020 10:54:16 UTC] PHP  15. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[04-Jan-2020 10:54:16 UTC] PHP  16. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[04-Jan-2020 10:54:16 UTC] PHP  17. fac_theme_assets() /app/public/wp-includes/class-wp-hook.php:288
+[04-Jan-2020 10:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_style_sheet_uri() in /app/public/wp-content/themes/factorian/functions.php:13
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): fac_theme_assets('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /app/public/wp-content/themes/factorian/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/ in /app/public/wp-content/themes/factorian/functions.php on line 13
+[04-Jan-2020 10:54:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_style_sheet_uri() in /app/public/wp-content/themes/factorian/functions.php:13
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): fac_theme_assets('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /app/public/wp-content/themes/factorian/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/ in /app/public/wp-content/themes/factorian/functions.php on line 13
+[04-Jan-2020 10:55:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_style_sheet_uri() in /app/public/wp-content/themes/factorian/functions.php:13
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): fac_theme_assets('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /app/public/wp-content/themes/factorian/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/ in /app/public/wp-content/themes/factorian/functions.php on line 13
+[04-Jan-2020 11:51:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/customizer/functions.php on line 2
+[04-Jan-2020 11:51:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/customizer/functions.php on line 2
+[04-Jan-2020 11:52:43 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/customizer/lib/customizer.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/customizer/functions.php on line 2
+[04-Jan-2020 11:52:43 UTC] PHP Stack trace:
+[04-Jan-2020 11:52:43 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[04-Jan-2020 11:52:43 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[04-Jan-2020 11:52:43 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[04-Jan-2020 11:52:43 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[04-Jan-2020 11:52:43 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[04-Jan-2020 11:52:43 UTC] PHP   6. include() /app/public/wp-settings.php:497
+[04-Jan-2020 11:52:43 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/customizer/lib/customizer.php' (include_path='.:') in /app/public/wp-content/themes/customizer/functions.php on line 2
+[04-Jan-2020 11:52:43 UTC] PHP Stack trace:
+[04-Jan-2020 11:52:43 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[04-Jan-2020 11:52:43 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[04-Jan-2020 11:52:43 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[04-Jan-2020 11:52:43 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[04-Jan-2020 11:52:43 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[04-Jan-2020 11:52:43 UTC] PHP   6. include() /app/public/wp-settings.php:497
+[04-Jan-2020 13:31:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 34
+[04-Jan-2020 13:33:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 34
+[04-Jan-2020 13:35:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 34
+[05-Jan-2020 01:03:51 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:04:51 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:04:59 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:05:51 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:06:51 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:08:51 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:09:31 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:09:31 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:09:55 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:09:58 UTC] PHP Parse error:  syntax error, unexpected '$services_style' (T_VARIABLE) in /app/public/wp-content/themes/customizer/functions.php on line 20
+[05-Jan-2020 01:10:39 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /app/public/wp-content/themes/customizer/functions.php on line 29
+[05-Jan-2020 01:11:21 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/customizer/functions.php:25
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): cust_theme_assets('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /app/public/wp-content/themes/customizer/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-templat in /app/public/wp-content/themes/customizer/functions.php on line 25
+[05-Jan-2020 01:12:17 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/customizer/functions.php:25
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): cust_theme_assets('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /app/public/wp-content/themes/customizer/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-templat in /app/public/wp-content/themes/customizer/functions.php on line 25
+[05-Jan-2020 01:12:20 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/customizer/functions.php:25
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): cust_theme_assets('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /app/public/wp-content/themes/customizer/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-templat in /app/public/wp-content/themes/customizer/functions.php on line 25
+[05-Jan-2020 01:13:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/customizer/functions.php on line 36
+[05-Jan-2020 01:15:24 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/customizer/functions.php:25
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): cust_theme_assets('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /app/public/wp-content/themes/customizer/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(722): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-includes/general-templat in /app/public/wp-content/themes/customizer/functions.php on line 25
+[05-Jan-2020 01:38:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 38
+[05-Jan-2020 01:40:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 38
+[05-Jan-2020 01:41:46 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 38
+[05-Jan-2020 01:41:48 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 38
+[06-Jan-2020 16:25:44 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/customizer/inc/customizer.php on line 65
+[06-Jan-2020 16:56:32 UTC] PHP Parse error:  syntax error, unexpected '$wp_customizer' (T_VARIABLE) in /app/public/wp-content/themes/customizer/inc/customizer.php on line 122
+[06-Jan-2020 17:33:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 125
+[06-Jan-2020 17:35:51 UTC] PHP Parse error:  syntax error, unexpected ''active_callback'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 125
+[06-Jan-2020 17:41:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_page_templatesss() in /app/public/wp-content/themes/customizer/inc/customizer.php:120
+Stack trace:
+#0 /app/public/wp-includes/class-wp-customize-section.php(183): {closure}(Object(WP_Customize_Section))
+#1 /app/public/wp-includes/class-wp-customize-section.php(223): WP_Customize_Section->active()
+#2 /app/public/wp-includes/class-wp-customize-manager.php(4870): WP_Customize_Section->json()
+#3 /app/public/wp-includes/class-wp-hook.php(288): WP_Customize_Manager->customize_pane_settings('')
+#4 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /app/public/wp-admin/customize.php(266): do_action('customize_contr...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/customizer.php on line 120
+[06-Jan-2020 17:41:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_page_templatesss() in /app/public/wp-content/themes/customizer/inc/customizer.php:120
+Stack trace:
+#0 /app/public/wp-includes/class-wp-customize-section.php(183): {closure}(Object(WP_Customize_Section))
+#1 /app/public/wp-includes/class-wp-customize-section.php(223): WP_Customize_Section->active()
+#2 /app/public/wp-includes/class-wp-customize-manager.php(4870): WP_Customize_Section->json()
+#3 /app/public/wp-includes/class-wp-hook.php(288): WP_Customize_Manager->customize_pane_settings('')
+#4 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /app/public/wp-admin/customize.php(266): do_action('customize_contr...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/customizer.php on line 120
+[07-Jan-2020 00:29:17 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 127
+[07-Jan-2020 00:29:46 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 127
+[07-Jan-2020 00:30:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 128
+[07-Jan-2020 00:30:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 128
+[07-Jan-2020 15:41:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 162
+[07-Jan-2020 15:41:16 UTC] PHP Stack trace:
+[07-Jan-2020 15:41:16 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[07-Jan-2020 15:41:16 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:138
+[07-Jan-2020 15:41:16 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:544
+[07-Jan-2020 15:41:16 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 15:41:16 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 15:41:16 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:162
+[07-Jan-2020 15:41:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 388
+[07-Jan-2020 15:41:16 UTC] PHP Stack trace:
+[07-Jan-2020 15:41:16 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[07-Jan-2020 15:41:16 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:138
+[07-Jan-2020 15:41:16 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:544
+[07-Jan-2020 15:41:16 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 15:41:16 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 15:41:16 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:388
+[07-Jan-2020 15:41:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 577
+[07-Jan-2020 15:41:17 UTC] PHP Stack trace:
+[07-Jan-2020 15:41:17 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[07-Jan-2020 15:41:17 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:138
+[07-Jan-2020 15:41:17 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:544
+[07-Jan-2020 15:41:17 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 15:41:17 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 15:41:17 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:577
+[07-Jan-2020 16:07:26 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:09:26 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:38:17 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:38:17 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:39:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:39:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:41:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:41:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:43:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:43:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:45:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:45:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:47:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 16:47:18 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 17:17:15 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 17:17:16 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 17:18:15 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 17:18:16 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 17:19:15 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 12
+[07-Jan-2020 17:20:15 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:14
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 14
+[07-Jan-2020 17:20:16 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:14
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 14
+[07-Jan-2020 17:22:15 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:14
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 14
+[07-Jan-2020 17:22:16 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:14
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 14
+[07-Jan-2020 17:23:15 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:14
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 14
+[07-Jan-2020 17:24:16 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:14
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 14
+[07-Jan-2020 17:25:15 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:14
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 14
+[07-Jan-2020 17:26:11 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/customize.php(13): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:26:16 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:28:19 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:28:19 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:28:22 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/plugins.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:28:25 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/customize.php(13): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:30:21 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/plugins.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:30:21 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:31:43 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:31:43 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:32:43 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:32:43 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:33:43 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:33:43 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(44): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:33:52 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Customize' not found in /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): customizer_csf_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(523): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/plugins.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 26
+[07-Jan-2020 17:38:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:38:15 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:15 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:38:15 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:38:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[07-Jan-2020 17:38:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:38:15 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:38:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:38:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:15 UTC] PHP   9. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:15 UTC] PHP  10. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:38:15 UTC] PHP  11. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:38:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:38:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:38:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/functions.php on line 6029
+[07-Jan-2020 17:38:15 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:15 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:38:15 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:38:15 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[07-Jan-2020 17:38:15 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:15 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:15 UTC] PHP   6. send_frame_options_header() /app/public/wp-includes/class-wp-hook.php:286
+[07-Jan-2020 17:38:15 UTC] PHP   7. header() /app/public/wp-includes/functions.php:6029
+[07-Jan-2020 17:38:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-admin/includes/misc.php on line 1252
+[07-Jan-2020 17:38:15 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:15 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:38:15 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:38:15 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[07-Jan-2020 17:38:15 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:15 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:15 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:15 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1252
+[07-Jan-2020 17:38:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-admin/customize.php on line 126
+[07-Jan-2020 17:38:15 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:15 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:38:15 UTC] PHP   2. header() /app/public/wp-admin/customize.php:126
+[07-Jan-2020 17:38:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/option.php on line 961
+[07-Jan-2020 17:38:15 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:15 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:38:15 UTC] PHP   2. wp_user_settings() /app/public/wp-admin/customize.php:128
+[07-Jan-2020 17:38:15 UTC] PHP   3. setcookie() /app/public/wp-includes/option.php:961
+[07-Jan-2020 17:38:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/option.php on line 962
+[07-Jan-2020 17:38:15 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:15 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:38:15 UTC] PHP   2. wp_user_settings() /app/public/wp-admin/customize.php:128
+[07-Jan-2020 17:38:15 UTC] PHP   3. setcookie() /app/public/wp-includes/option.php:962
+[07-Jan-2020 17:38:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:38:19 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:19 UTC] PHP   1. {main}() /app/public/index.php:0
+[07-Jan-2020 17:38:19 UTC] PHP   2. require() /app/public/index.php:17
+[07-Jan-2020 17:38:19 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[07-Jan-2020 17:38:19 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:38:19 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:38:19 UTC] PHP   6. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:38:19 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:19 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:19 UTC] PHP   9. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:19 UTC] PHP  10. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:38:19 UTC] PHP  11. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:38:19 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:38:19 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:38:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:38:23 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:23 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[07-Jan-2020 17:38:23 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[07-Jan-2020 17:38:23 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[07-Jan-2020 17:38:23 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:38:23 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:38:23 UTC] PHP   6. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:38:23 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:23 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:23 UTC] PHP   9. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:23 UTC] PHP  10. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:38:23 UTC] PHP  11. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:38:23 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:38:23 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:38:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/functions.php on line 6029
+[07-Jan-2020 17:38:23 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:23 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[07-Jan-2020 17:38:23 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[07-Jan-2020 17:38:23 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[07-Jan-2020 17:38:23 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:23 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:23 UTC] PHP   6. send_frame_options_header() /app/public/wp-includes/class-wp-hook.php:286
+[07-Jan-2020 17:38:23 UTC] PHP   7. header() /app/public/wp-includes/functions.php:6029
+[07-Jan-2020 17:38:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-admin/includes/misc.php on line 1252
+[07-Jan-2020 17:38:23 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:23 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[07-Jan-2020 17:38:23 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[07-Jan-2020 17:38:23 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[07-Jan-2020 17:38:23 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:23 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:23 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:23 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1252
+[07-Jan-2020 17:38:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:38:23 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:23 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[07-Jan-2020 17:38:23 UTC] PHP   2. require_once() /app/public/wp-cron.php:44
+[07-Jan-2020 17:38:23 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:38:23 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:38:23 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:38:23 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:23 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:23 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:23 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:38:23 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:38:23 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:38:23 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:38:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 388
+[07-Jan-2020 17:38:26 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:26 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[07-Jan-2020 17:38:26 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[07-Jan-2020 17:38:26 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:367
+[07-Jan-2020 17:38:26 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:26 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:26 UTC] PHP   6. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:26 UTC] PHP   7. trigger_error() /app/public/wp-includes/update.php:388
+[07-Jan-2020 17:38:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/pluggable.php on line 1265
+[07-Jan-2020 17:38:27 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:27 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[07-Jan-2020 17:38:27 UTC] PHP   2. wp_redirect() /app/public/wp-admin/plugins.php:70
+[07-Jan-2020 17:38:27 UTC] PHP   3. header() /app/public/wp-includes/pluggable.php:1265
+[07-Jan-2020 17:38:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/pluggable.php on line 1268
+[07-Jan-2020 17:38:27 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:27 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[07-Jan-2020 17:38:27 UTC] PHP   2. wp_redirect() /app/public/wp-admin/plugins.php:70
+[07-Jan-2020 17:38:27 UTC] PHP   3. header() /app/public/wp-includes/pluggable.php:1268
+[07-Jan-2020 17:38:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:38:38 UTC] PHP Stack trace:
+[07-Jan-2020 17:38:38 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:38:38 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:38:38 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:38:38 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:38:38 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:38:38 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:38:38 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:38:38 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:38:38 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:38:38 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:38:38 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:38:38 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:39:06 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/customizer/lib/cs-framework/cs-frameworkss.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/customizer/functions.php on line 3
+[07-Jan-2020 17:39:06 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:06 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:06 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:39:06 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[07-Jan-2020 17:39:06 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:39:06 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:39:06 UTC] PHP   6. include() /app/public/wp-settings.php:497
+[07-Jan-2020 17:39:06 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/customizer/lib/cs-framework/cs-frameworkss.php' (include_path='.:') in /app/public/wp-content/themes/customizer/functions.php on line 3
+[07-Jan-2020 17:39:06 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:06 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:06 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:39:06 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[07-Jan-2020 17:39:06 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:39:06 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:39:06 UTC] PHP   6. include() /app/public/wp-settings.php:497
+[07-Jan-2020 17:39:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:39:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:14 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:39:14 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[07-Jan-2020 17:39:14 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:39:14 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:39:14 UTC] PHP   6. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:39:14 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:39:14 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:39:14 UTC] PHP   9. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:39:14 UTC] PHP  10. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:39:14 UTC] PHP  11. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:39:14 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:39:14 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:39:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/functions.php on line 6029
+[07-Jan-2020 17:39:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:14 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:39:14 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[07-Jan-2020 17:39:14 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:39:14 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:39:14 UTC] PHP   6. send_frame_options_header() /app/public/wp-includes/class-wp-hook.php:286
+[07-Jan-2020 17:39:14 UTC] PHP   7. header() /app/public/wp-includes/functions.php:6029
+[07-Jan-2020 17:39:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-admin/includes/misc.php on line 1252
+[07-Jan-2020 17:39:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:14 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[07-Jan-2020 17:39:14 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[07-Jan-2020 17:39:14 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:39:14 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:39:14 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:39:14 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1252
+[07-Jan-2020 17:39:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-admin/customize.php on line 126
+[07-Jan-2020 17:39:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:14 UTC] PHP   2. header() /app/public/wp-admin/customize.php:126
+[07-Jan-2020 17:39:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/option.php on line 961
+[07-Jan-2020 17:39:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:14 UTC] PHP   2. wp_user_settings() /app/public/wp-admin/customize.php:128
+[07-Jan-2020 17:39:14 UTC] PHP   3. setcookie() /app/public/wp-includes/option.php:961
+[07-Jan-2020 17:39:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/option.php on line 962
+[07-Jan-2020 17:39:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[07-Jan-2020 17:39:14 UTC] PHP   2. wp_user_settings() /app/public/wp-admin/customize.php:128
+[07-Jan-2020 17:39:14 UTC] PHP   3. setcookie() /app/public/wp-includes/option.php:962
+[07-Jan-2020 17:39:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:39:18 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:18 UTC] PHP   1. {main}() /app/public/index.php:0
+[07-Jan-2020 17:39:18 UTC] PHP   2. require() /app/public/index.php:17
+[07-Jan-2020 17:39:18 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[07-Jan-2020 17:39:18 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:39:18 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:39:18 UTC] PHP   6. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:39:18 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:39:18 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:39:18 UTC] PHP   9. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:39:18 UTC] PHP  10. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:39:18 UTC] PHP  11. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:39:18 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:39:18 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:39:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:39:38 UTC] PHP Stack trace:
+[07-Jan-2020 17:39:38 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:39:38 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:39:38 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:39:38 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:39:38 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:39:38 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:39:38 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:39:38 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:39:38 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:39:38 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:39:38 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:39:38 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:40:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:40:17 UTC] PHP Stack trace:
+[07-Jan-2020 17:40:17 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:40:17 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:40:17 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:40:17 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:40:17 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:40:17 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:40:17 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:40:17 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:40:17 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:40:17 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:40:17 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:40:17 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:41:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:41:38 UTC] PHP Stack trace:
+[07-Jan-2020 17:41:38 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:41:38 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:41:38 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:41:38 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:41:38 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:41:38 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:41:38 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:41:38 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:41:38 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:41:38 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:41:38 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:41:38 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:42:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:42:17 UTC] PHP Stack trace:
+[07-Jan-2020 17:42:17 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:42:17 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:42:17 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:42:17 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:42:17 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:42:17 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:42:17 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:42:17 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:42:17 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:42:17 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:42:17 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:42:17 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:43:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:43:38 UTC] PHP Stack trace:
+[07-Jan-2020 17:43:38 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:43:38 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:43:38 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:43:38 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:43:38 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:43:38 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:43:38 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:43:38 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:43:38 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:43:38 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:43:38 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:43:38 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:44:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:44:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:44:14 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:44:14 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:44:14 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:44:14 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:44:14 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:44:14 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:44:14 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:44:14 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:44:14 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:44:14 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:44:14 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:44:14 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:45:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:45:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:45:14 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:45:14 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:45:14 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:45:14 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:45:14 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:45:14 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:45:14 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:45:14 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:45:14 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:45:14 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:45:14 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:45:14 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:45:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:45:38 UTC] PHP Stack trace:
+[07-Jan-2020 17:45:38 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:45:38 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:45:38 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:45:38 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:45:38 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:45:38 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:45:38 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:45:38 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:45:38 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:45:38 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:45:38 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:45:38 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:47:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:47:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:47:14 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:47:14 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:47:14 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:47:14 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:47:14 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:47:14 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:47:14 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:47:14 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:47:14 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:47:14 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:47:14 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:47:14 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:47:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:47:38 UTC] PHP Stack trace:
+[07-Jan-2020 17:47:38 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:47:38 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:47:38 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:47:38 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:47:38 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:47:38 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:47:38 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:47:38 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:47:38 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:47:38 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:47:38 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:47:38 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:49:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:49:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:49:14 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:49:14 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:49:14 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:49:14 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:49:14 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:49:14 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:49:14 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:49:14 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:49:14 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:49:14 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:49:14 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:49:14 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:51:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:51:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:51:14 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:51:14 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:51:14 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:51:14 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:51:14 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:51:14 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:51:14 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:51:14 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:51:14 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:51:14 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:51:14 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:51:14 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[07-Jan-2020 17:53:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[07-Jan-2020 17:53:14 UTC] PHP Stack trace:
+[07-Jan-2020 17:53:14 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[07-Jan-2020 17:53:14 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[07-Jan-2020 17:53:14 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[07-Jan-2020 17:53:14 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[07-Jan-2020 17:53:14 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[07-Jan-2020 17:53:14 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[07-Jan-2020 17:53:14 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[07-Jan-2020 17:53:14 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[07-Jan-2020 17:53:14 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[07-Jan-2020 17:53:14 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[07-Jan-2020 17:53:14 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[07-Jan-2020 17:53:14 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[08-Jan-2020 15:27:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[08-Jan-2020 15:27:13 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:13 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[08-Jan-2020 15:27:13 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[08-Jan-2020 15:27:13 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[08-Jan-2020 15:27:13 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[08-Jan-2020 15:27:13 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[08-Jan-2020 15:27:13 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[08-Jan-2020 15:27:13 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 15:27:13 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 15:27:13 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[08-Jan-2020 15:27:13 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[08-Jan-2020 15:27:13 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[08-Jan-2020 15:27:13 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[08-Jan-2020 15:27:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[08-Jan-2020 15:27:14 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[08-Jan-2020 15:27:14 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[08-Jan-2020 15:27:14 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[08-Jan-2020 15:27:14 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[08-Jan-2020 15:27:14 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[08-Jan-2020 15:27:14 UTC] PHP   6. do_action() /app/public/wp-settings.php:523
+[08-Jan-2020 15:27:14 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[08-Jan-2020 15:27:14 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 15:27:14 UTC] PHP   9. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 15:27:14 UTC] PHP  10. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[08-Jan-2020 15:27:14 UTC] PHP  11. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[08-Jan-2020 15:27:14 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[08-Jan-2020 15:27:14 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[08-Jan-2020 15:27:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/functions.php on line 6029
+[08-Jan-2020 15:27:14 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[08-Jan-2020 15:27:14 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[08-Jan-2020 15:27:14 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[08-Jan-2020 15:27:14 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[08-Jan-2020 15:27:14 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 15:27:14 UTC] PHP   6. send_frame_options_header() /app/public/wp-includes/class-wp-hook.php:286
+[08-Jan-2020 15:27:14 UTC] PHP   7. header() /app/public/wp-includes/functions.php:6029
+[08-Jan-2020 15:27:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-admin/includes/misc.php on line 1252
+[08-Jan-2020 15:27:14 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[08-Jan-2020 15:27:14 UTC] PHP   2. require_once() /app/public/wp-admin/customize.php:13
+[08-Jan-2020 15:27:14 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:170
+[08-Jan-2020 15:27:14 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[08-Jan-2020 15:27:14 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 15:27:14 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 15:27:14 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1252
+[08-Jan-2020 15:27:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-admin/customize.php on line 126
+[08-Jan-2020 15:27:14 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[08-Jan-2020 15:27:14 UTC] PHP   2. header() /app/public/wp-admin/customize.php:126
+[08-Jan-2020 15:27:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/option.php on line 961
+[08-Jan-2020 15:27:14 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[08-Jan-2020 15:27:14 UTC] PHP   2. wp_user_settings() /app/public/wp-admin/customize.php:128
+[08-Jan-2020 15:27:14 UTC] PHP   3. setcookie() /app/public/wp-includes/option.php:961
+[08-Jan-2020 15:27:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/class-wp-hook.php:288) in /app/public/wp-includes/option.php on line 962
+[08-Jan-2020 15:27:14 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:14 UTC] PHP   1. {main}() /app/public/wp-admin/customize.php:0
+[08-Jan-2020 15:27:14 UTC] PHP   2. wp_user_settings() /app/public/wp-admin/customize.php:128
+[08-Jan-2020 15:27:14 UTC] PHP   3. setcookie() /app/public/wp-includes/option.php:962
+[08-Jan-2020 15:27:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[08-Jan-2020 15:27:20 UTC] PHP Stack trace:
+[08-Jan-2020 15:27:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[08-Jan-2020 15:27:20 UTC] PHP   2. require() /app/public/index.php:17
+[08-Jan-2020 15:27:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[08-Jan-2020 15:27:20 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[08-Jan-2020 15:27:20 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[08-Jan-2020 15:27:20 UTC] PHP   6. do_action() /app/public/wp-settings.php:523
+[08-Jan-2020 15:27:20 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[08-Jan-2020 15:27:20 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 15:27:20 UTC] PHP   9. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 15:27:20 UTC] PHP  10. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[08-Jan-2020 15:27:20 UTC] PHP  11. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[08-Jan-2020 15:27:20 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[08-Jan-2020 15:27:20 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[08-Jan-2020 15:28:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'customizer_csf_settings' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 288
+[08-Jan-2020 15:28:19 UTC] PHP Stack trace:
+[08-Jan-2020 15:28:19 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[08-Jan-2020 15:28:19 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[08-Jan-2020 15:28:19 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[08-Jan-2020 15:28:19 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[08-Jan-2020 15:28:19 UTC] PHP   5. do_action() /app/public/wp-settings.php:523
+[08-Jan-2020 15:28:19 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[08-Jan-2020 15:28:19 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 15:28:19 UTC] PHP   8. customizer_csf_init() /app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 15:28:19 UTC] PHP   9. CSFramework_Customize::instance() /app/public/wp-content/themes/customizer/inc/csf-customizer.php:26
+[08-Jan-2020 15:28:19 UTC] PHP  10. CSFramework_Customize->__construct() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:55
+[08-Jan-2020 15:28:19 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/customizer/lib/cs-framework/classes/customize.class.php:42
+[08-Jan-2020 15:28:19 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[08-Jan-2020 16:06:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:08:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:10:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:12:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:14:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:16:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:18:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:20:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:22:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:24:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:26:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:28:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:30:02 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:30:14 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 59
+[08-Jan-2020 16:41:03 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 85
+[09-Jan-2020 15:29:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 72
+[09-Jan-2020 15:29:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 72
+[09-Jan-2020 15:30:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 74
+[09-Jan-2020 15:31:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 74
+[09-Jan-2020 15:31:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 74
+[09-Jan-2020 15:37:00 UTC] PHP Parse error:  syntax error, unexpected ''active_callback'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 84
+[09-Jan-2020 15:37:10 UTC] PHP Parse error:  syntax error, unexpected ''active_callback'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 84
+[09-Jan-2020 15:50:07 UTC] PHP Parse error:  syntax error, unexpected ''settings'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/customizer/inc/csf-customizer.php on line 55
+[09-Jan-2020 16:26:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filter() in /app/public/wp-content/themes/customizer/page-templates/about.php:33
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(98): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/customizer/page-templates/about.php on line 33
+[09-Jan-2020 17:52:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /app/public/wp-content/themes/customizer/inc/customizer.php:271
+Stack trace:
+#0 /app/public/wp-includes/class-wp-customize-control.php(254): cust_display_about_section(Object(WP_Customize_Control))
+#1 /app/public/wp-includes/class-wp-customize-control.php(311): WP_Customize_Control->active()
+#2 /app/public/wp-includes/class-wp-customize-control.php(331): WP_Customize_Control->to_json()
+#3 /app/public/wp-includes/class-wp-customize-manager.php(4914): WP_Customize_Control->json()
+#4 /app/public/wp-includes/class-wp-hook.php(288): WP_Customize_Manager->customize_pane_settings('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-admin/customize.php(266): do_action('customize_contr...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/customizer.php on line 271
+[09-Jan-2020 17:52:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /app/public/wp-content/themes/customizer/inc/customizer.php:271
+Stack trace:
+#0 /app/public/wp-includes/class-wp-customize-control.php(254): cust_display_about_section(Object(WP_Customize_Control))
+#1 /app/public/wp-includes/class-wp-customize-control.php(311): WP_Customize_Control->active()
+#2 /app/public/wp-includes/class-wp-customize-control.php(331): WP_Customize_Control->to_json()
+#3 /app/public/wp-includes/class-wp-customize-manager.php(4914): WP_Customize_Control->json()
+#4 /app/public/wp-includes/class-wp-hook.php(288): WP_Customize_Manager->customize_pane_settings('')
+#5 /app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /app/public/wp-admin/customize.php(266): do_action('customize_contr...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/customizer.php on line 271
+[09-Jan-2020 18:00:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/customizer/page-templates/about.php on line 10
+[10-Jan-2020 05:05:27 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/customizer/inc/customizer.php on line 281
+[10-Jan-2020 05:31:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/customizer/page-templates/about.php on line 50
+[11-Jan-2020 01:58:05 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 162
+[11-Jan-2020 01:58:05 UTC] PHP Stack trace:
+[11-Jan-2020 01:58:05 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[11-Jan-2020 01:58:05 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:138
+[11-Jan-2020 01:58:05 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:544
+[11-Jan-2020 01:58:05 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[11-Jan-2020 01:58:05 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:288
+[11-Jan-2020 01:58:05 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:162
+[11-Jan-2020 02:07:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 3
+[11-Jan-2020 02:08:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 3
+[11-Jan-2020 02:08:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 3
+[11-Jan-2020 02:10:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 3
+[11-Jan-2020 02:10:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 3
+[11-Jan-2020 02:12:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 3
+[11-Jan-2020 02:12:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:14:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:15:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:15:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#5 /app/public/wp-admin/customize.php(13): require_once('/app/public/wp-...')
+#6 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:15:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#5 /app/public/wp-admin/customize.php(13): require_once('/app/public/wp-...')
+#6 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:15:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#5 /app/public/wp-admin/customize.php(13): require_once('/app/public/wp-...')
+#6 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:16:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#5 /app/public/index.php(17): require('/app/public/wp-...')
+#6 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:16:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:16:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(5): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#5 /app/public/index.php(17): require('/app/public/wp-...')
+#6 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:17:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#5 /app/public/index.php(17): require('/app/public/wp-...')
+#6 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:18:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:18:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /app/public/wp-content/themes/customizer/inc/kirki.php:4
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 4
+[11-Jan-2020 02:19:10 UTC] PHP Warning:  dir(/app/public/wp-content/upgrade/kirki.3.0.45-xNiISw/kirki/modules/loading/): failed to open dir: No such file or directory in /app/public/wp-admin/includes/class-wp-filesystem-direct.php on line 571
+[11-Jan-2020 02:19:10 UTC] PHP Stack trace:
+[11-Jan-2020 02:19:10 UTC] PHP   1. {main}() /app/public/wp-admin/update.php:0
+[11-Jan-2020 02:19:10 UTC] PHP   2. Plugin_Upgrader->install() /app/public/wp-admin/update.php:138
+[11-Jan-2020 02:19:11 UTC] PHP   3. Plugin_Upgrader->run() /app/public/wp-admin/includes/class-plugin-upgrader.php:108
+[11-Jan-2020 02:19:11 UTC] PHP   4. Plugin_Upgrader->install_package() /app/public/wp-admin/includes/class-wp-upgrader.php:789
+[11-Jan-2020 02:19:11 UTC] PHP   5. WP_Filesystem_Direct->delete() /app/public/wp-admin/includes/class-wp-upgrader.php:597
+[11-Jan-2020 02:19:11 UTC] PHP   6. WP_Filesystem_Direct->delete() /app/public/wp-admin/includes/class-wp-filesystem-direct.php:349
+[11-Jan-2020 02:19:11 UTC] PHP   7. WP_Filesystem_Direct->delete() /app/public/wp-admin/includes/class-wp-filesystem-direct.php:349
+[11-Jan-2020 02:19:11 UTC] PHP   8. WP_Filesystem_Direct->delete() /app/public/wp-admin/includes/class-wp-filesystem-direct.php:349
+[11-Jan-2020 02:19:11 UTC] PHP   9. WP_Filesystem_Direct->dirlist() /app/public/wp-admin/includes/class-wp-filesystem-direct.php:344
+[11-Jan-2020 02:19:11 UTC] PHP  10. dir() /app/public/wp-admin/includes/class-wp-filesystem-direct.php:571
+[11-Jan-2020 16:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /app/public/wp-content/themes/customizer/inc/kirki.php:8
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 8
+[11-Jan-2020 16:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /app/public/wp-content/themes/customizer/inc/kirki.php:8
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#5 /app/public/wp-admin/customize.php(13): require_once('/app/public/wp-...')
+#6 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 8
+[11-Jan-2020 16:30:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /app/public/wp-content/themes/customizer/inc/kirki.php:8
+Stack trace:
+#0 /app/public/wp-content/themes/customizer/functions.php(6): require_once()
+#1 /app/public/wp-settings.php(497): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/customizer/inc/kirki.php on line 8
+[11-Jan-2020 16:31:17 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/customizer/inc/kirki.php on line 10
+[11-Jan-2020 16:31:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/customizer/inc/kirki.php on line 13
+[12-Jan-2020 16:56:50 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 162
+[12-Jan-2020 16:56:50 UTC] PHP Stack trace:
+[12-Jan-2020 16:56:50 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[12-Jan-2020 16:56:50 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:138
+[12-Jan-2020 16:56:50 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:544
+[12-Jan-2020 16:56:50 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[12-Jan-2020 16:56:50 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:288
+[12-Jan-2020 16:56:50 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:162
+[12-Jan-2020 16:56:50 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 388
+[12-Jan-2020 16:56:50 UTC] PHP Stack trace:
+[12-Jan-2020 16:56:50 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[12-Jan-2020 16:56:50 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:138
+[12-Jan-2020 16:56:50 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:544
+[12-Jan-2020 16:56:50 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[12-Jan-2020 16:56:50 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:288
+[12-Jan-2020 16:56:50 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:388
+[12-Jan-2020 16:56:51 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 577
+[12-Jan-2020 16:56:51 UTC] PHP Stack trace:
+[12-Jan-2020 16:56:51 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[12-Jan-2020 16:56:51 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:138
+[12-Jan-2020 16:56:51 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:544
+[12-Jan-2020 16:56:51 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:312
+[12-Jan-2020 16:56:51 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:288
+[12-Jan-2020 16:56:51 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:577
